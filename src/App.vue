@@ -71,6 +71,8 @@
 
                 <!--EXPERIENCE-->
                 <v-card class="mt-3">
+                  <v-card-title>Experiencia</v-card-title>
+                  <v-divider></v-divider>
                   <v-card-text>
 
                     <v-timeline>
