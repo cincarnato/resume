@@ -236,6 +236,11 @@ export default {
           level: 1,
           img: require('@/assets/tech/eloquent.png'),
         },
+        {
+          title: 'GORM',
+          level: 1,
+          img: require('@/assets/tech/gorm.png'),
+        },
       ],
       devFrameworks: [
         {
@@ -346,11 +351,11 @@ export default {
           description: [
             {
               title: 'Desarrollo de Software',
-              description: 'Liderazgo en desarrollo de software. Metodología Scrum. Lenguajes Javascript, Java, PHP, Python, Ruby, Groovy. Frameworks Spring, Zend, Laravel, Grails, Express, Vuejs, React, Angular, Nuxt. Integración y delivery continuo.'
+              description: 'Liderazgo en desarrollo de productos y proyectos de software con fuerte orientación a telecomunicaciones. Gestión bajo metodología Scrum. Uso de múltiples lenguajes y tecnologías. Entornos basados en contenedores. Integración y delivery continuo.'
             },
             {
               title: 'Infraestructura y Tecnología',
-              description: 'Gestión de infraestructura. Servidores, sistemas operativos, virtualización, docker, redes, firewalls, bases de datos SQL y NOSQL, alta disponibilidad, balanceo.'
+              description: 'Infraestructura on premise. Gestión y mantenimiento de servidores, virtualización, sistemas operativos linux, contenedores docker, redes, firewalls, bases de datos SQL y NOSQL. Implementación de alta disponibilidad y balanceo.'
             }
           ]
         },
@@ -410,8 +415,8 @@ export default {
           value: 'Libros'
         },
         {
-          icon: 'mdi-teach',
-          value: 'Enseñar'
+          icon: 'mdi-human-male-board',
+          value: 'Docencia'
         },
         {
           icon: 'mdi-desktop-classic',
@@ -435,26 +440,42 @@ export default {
         },
       ],
       extract: [
-        'Me destaco como desarrollador full stack y cuento con un gran complemento de conocimientos de IT en general. Mi paso por telecomunicaciones me permitió adquirir gran experiencia en redes y telefonía.',
-        'Tengo un perfil dinámico que me permite desempeñarme en diferentes roles, pudiendo contribuir en diferentes etapas y contextos de un proyecto.',
-        'Disfruto de enseñar y compartir conocimientos. He liderado y formado equipos. Soy conciliador y perseverante. Siempre intento con el ejemplo.',
+        'Desarrollador full stack con amplio conocimiento en IT. Interesado en aplicar buenas prácticas, optimización y performance. Enfoque UX y atomic design components en frontend y desarrollo de APIs Rest y Graphql en Backend. Experiencia desarrollando software con un volumen de 70 millones de registros mensuales aplicando microservicios y comunicación asincrónica.',
+        'Haber trabajado en una compañía de telecomunicaciones y las certificaciones Cisco obtenidas me han dado un amplio conocimiento en redes, protocolos y seguridad. Cuento además con experiencia en infraestructura IT sobre servidores, virtuales, sistemas operativos Linux, contenedores docker y base de datos SQL y NOSQL.',
+        'Mi etapa como operador y luego líder en soporte técnico me ha permitido desarrollar habilidades blandas claves como la empatía y la comunicación, así como aprender sobre monitoria, resolución de problemas y trabajo preventivo.',
+        'Disfruto de enseñar y compartir conocimientos. He impartido numerosas capacitaciones y organizado actividades de entrenamiento del estilo code jam. He tenido la oportunidad de formar desarrolladores trainees y crear equipos de trabajo desde cero.',
+        'En backend tengo experiencia trabajando con PHP, Java y Nodejs, he utilizado diversos frameworks como Zend Framework, Spring y Express, ORM/ODM como Doctrine, Hibernate y Mongoose, y en frontend he trabajado con Angularjs, React aunque mi favorito es Vuejs.'
+
       ],
       development: [
-        'Programación Orientada a Objetos. Patrones de Diseño.',
-        'Metodologías ágiles',
-        'TDD (Test Driven Development)',
+        'Metodologías ágiles (Scrum, Kanban)',
+        'Programación Orientada a Objetos',
+        'Patrones de Diseño',
+        'Programación funcional',
         'Test Unitario/Integración',
-        'Manejo de Hilos',
-        'Manejo de Excepciones',
-        'Volumen de datos',
+        'TDD (Test Driven Development)',
         'API REST',
         'GraphQL',
-        'Programación funcional',
         'Programación asíncrona',
         'DB SQL & NOSQL',
+        'SPA / SSR / PWA',
+        'Manejo de hilos',
+        'Manejo de errores y excepciones',
+        'Volumen de datos',
         'CI/CD',
-        'Docker',
+        'Docker / Swarm / Kubernetes',
+        'Impact mapping',
+        'User story mapping',
         'User story'
+      ],
+      tools: [
+        'Gitlab',
+        'Jenkins',
+        'Docker Registry',
+        'Redmine',
+        'Apache',
+        'Nginx',
+        'Haproxy'
       ],
       networking: [
         'TCP/IP',
@@ -463,7 +484,6 @@ export default {
         'Switching',
         'VPN',
         'Wireshark'
-
       ],
       telephony: [
         'Voip, SIP, RTP',
