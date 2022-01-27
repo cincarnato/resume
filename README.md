@@ -1,5 +1,7 @@
 # resume
 
+LINK: https://cincarnato.github.io/resume/
+
 ## Project setup
 ```
 npm install
